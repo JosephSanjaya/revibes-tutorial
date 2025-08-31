@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("sjy-build-logic")
     repositories {
         google {
             content {
@@ -12,6 +13,11 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
+    versionCatalogs {
+        create("sjy") {
+            from(files("sjy-build-logic/gradle/libs.versions.toml"))
+        }
+    }
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
@@ -21,3 +27,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Revibes"
 include(":app")
+
