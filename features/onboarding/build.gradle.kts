@@ -1,18 +1,13 @@
 plugins {
-    alias(libs.plugins.sjy.app)
+    alias(libs.plugins.sjy.lib)
     alias(libs.plugins.sjy.compose)
-    alias(libs.plugins.sjy.firebase)
 }
 
 android {
-    namespace = "com.carissa.revibes"
-
+    namespace = "com.carissa.revibes.onboarding"
     defaultConfig {
-        applicationId = "com.carissa.revibes"
-        versionCode = 1
-        versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -24,8 +19,4 @@ android {
             )
         }
     }
-}
-dependencies {
-    implementation(project(":core"))
-    implementation(project(":features:onboarding"))
 }
