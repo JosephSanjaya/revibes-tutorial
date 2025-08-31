@@ -1,6 +1,6 @@
 [versions]
 compile-sdk = "36"
-min-sdk = "24"
+min-sdk = "26"
 
 [libraries]
 

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.sjy.app)
     alias(libs.plugins.sjy.compose)
+    alias(libs.plugins.sjy.firebase)
 }
 
 android {

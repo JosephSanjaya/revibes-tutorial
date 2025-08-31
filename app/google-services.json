@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87240429184",
+    "project_id": "revibes-tutorial",
+    "storage_bucket": "revibes-tutorial.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87240429184:android:dd65bba7ef8594a0962065",
+        "android_client_info": {
+          "package_name": "com.carissa.revibes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuCP-cSHI_-GvIv4ey7l7WGm87xeEPDQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
